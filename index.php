@@ -31,7 +31,7 @@ class Person
 
     public function sayHello()
     {
-        echo "Ciao mi chiamo $this->firstname $this->lastname \n";
+        echo "Ciao mi chiamo \"$this->firstname $this->lastname\" \n";
     }
 }
 
